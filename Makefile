@@ -21,7 +21,7 @@ ifndef TARGET_PLATFORMS
 endif
 
 BUILD_META=-build$(shell date +%Y%m%d)
-ORG ?= rancher
+ORG ?= rafiusky
 PKG ?= github.com/k8snetworkplumbingwg/whereabouts
 SRC ?= github.com/k8snetworkplumbingwg/whereabouts
 TAG ?= ${GITHUB_ACTION_TAG}
